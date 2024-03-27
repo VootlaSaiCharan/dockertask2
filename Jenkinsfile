@@ -19,7 +19,7 @@ pipeline {
         stage('Python') {
             steps {
                 git branch: 'python', url: 'https://github.com/VootlaSaiCharan/dockertask2.git'
-                sh "python3 main.py"
+                sh "python3 hello.py"
             }
         }
     }
